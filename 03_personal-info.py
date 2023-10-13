@@ -5,4 +5,4 @@ age=input("Enter your age: ")
 
 space=" "
 
-print(first_name + space + space+ last_name +space + location + space + age)
+print("Hi"+ space+ first_name + space + last_name + space +"your location is" + space + location + space + "and you are" +space + age + "years old")

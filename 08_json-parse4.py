@@ -7,7 +7,13 @@ key = "9cir0GQJhXB2VkUukQDRXTpweVbEeVs8"
 
 while True:
     orig = input("Starting Location: ")
+    if orig == "quit" or orig == "q":
+        break
+
     dest = input("Destination: ")
+    if dest == "quit" or dest == "q":
+        break
+
     url = main_api + urllib.parse.urlencode({"key": key, "from":orig, "to":dest})
     print("URL: " + (url))
 
